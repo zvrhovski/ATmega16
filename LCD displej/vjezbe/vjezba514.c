@@ -1,0 +1,42 @@
+/*
+ Naslov: MIKRORAÈUNALA - Programiranje mikrokontrolera porodice 
+ Atmel u programskom okruženju Atmel Studio 6
+ Autori: Zoran Vrhovski, Marko Miletiæ
+ 
+ Vježba 5.1.4
+ */ 
+
+#include "AVR lib/AVR_lib.h"
+#include "LCD/lcd.h"
+#include <avr/io.h>
+#include <math.h>
+
+#define PI 3.14159
+
+void inicijalizacija(){
+	
+	lcd_init(); // inicijalizacija lcd displeja
+}
+
+int main(void){
+	
+	inicijalizacija();
+	
+	uint8_t kut = 0;
+	
+	while (1)
+	{
+		lcd_clrscr(); 
+		lcd_home(); 
+		
+		// ispis kuta i sinusa kuta
+				
+		_delay_ms(1000);
+		
+		if(++kut >=180)
+		kut = 0;
+		
+	}
+	
+	return 0;
+}

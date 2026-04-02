@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -d */)",
+      "Bash(for module:*)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/Zoran/Desktop/uC ATmega32U4/**)",
+      "Bash(done)",
+      "Bash(fi)"
+    ]
+  }
+}
