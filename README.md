@@ -1,6 +1,6 @@
 # Mikroupravljači — ATmega16
 
-Materijali za laboratorijske vježbe kolegija **Mikroupravljači** na Veleučilištu u Bjelovaru, uključujući skeletni kod vježbi, potpuna rješenja i udžbenik.
+Materijali za laboratorijske vježbe kolegija **Miroračunala** na Veleučilištu u Bjelovaru (korišteno do 2019.), uključujući skeletni kod vježbi, potpuna rješenja i udžbenik.
 
 ## Sadržaj
 
